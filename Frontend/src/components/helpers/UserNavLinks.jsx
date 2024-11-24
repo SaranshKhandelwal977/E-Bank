@@ -69,11 +69,11 @@ export const UserNavLinks = ({ user }) => {
       icon: FaCoins,
       to: account ? `/account/deposit/${account._id}` : " ",
     },
-    {
-      title: "Withdraw",
-      icon: FaMoneyBillWaveAlt,
-      to: account ? `/account/withdraw/${account._id}` : " ",
-    },
+    // {
+    //   title: "Withdraw",
+    //   icon: FaMoneyBillWaveAlt,
+    //   to: account ? `/account/withdraw/${account._id}` : " ",
+    // },
     {
       title: "Transfer",
       icon: IoSend,
@@ -94,11 +94,11 @@ export const UserNavLinks = ({ user }) => {
       icon: BiCoinStack,
       to: account ? `/account/deposit-logs/${account._id}` : " ",
     },
-    {
-      title: "Withdraw Logs",
-      icon: BiMoney,
-      to: account ? `/account/withdraw-logs/${account._id}` : " ",
-    },
+    // {
+    //   title: "Withdraw Logs",
+    //   icon: BiMoney,
+    //   to: account ? `/account/withdraw-logs/${account._id}` : " ",
+    // },
     {
       title: "Setting",
       icon: AiFillSetting,
